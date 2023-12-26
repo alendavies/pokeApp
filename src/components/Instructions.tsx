@@ -12,7 +12,9 @@ function Instructions({ open, setOpen }: InstructionsProps) {
     const [currentPage, setCurrentPage] = useState(0)
     const navigate = useNavigate()
     const root: boolean =
-        !window.location.toString().includes('/pokedex') && !window.location.toString().includes('/map') && !window.location.toString().includes('/combate')
+        !window.location.toString().includes('/pokedex') &&
+        !window.location.toString().includes('/map') &&
+        !window.location.toString().includes('/combate')
 
     const pages = [
         {
@@ -57,7 +59,8 @@ function Instructions({ open, setOpen }: InstructionsProps) {
             content: (
                 <>
                     <p className='text-black'>
-                        Aquí verás los pokémones contra los que puedes luchar en el destino seleccionado. Presiona "Atacar" para enfrentarte y capturarlo (o salir derrotado)
+                        Aquí verás los pokémones contra los que puedes luchar en el destino seleccionado. Presiona
+                        "Atacar" para enfrentarte y capturarlo (o salir derrotado)
                     </p>
                     <div className='w-full h-full flex flex-wrap space-y-4 justify-center mt-2'>
                         <img src='/images/combate.png' />
@@ -118,7 +121,7 @@ function Instructions({ open, setOpen }: InstructionsProps) {
                                             variant={'outline'}
                                             className='bg-[#40d485] font-semibold text-white hover:bg-white hover:text-[#40d485] hover:border-[#40d485] hover:border-2'
                                             onClick={() => {
-                                                navigate('/pokedex')
+                                                navigate('pokedex')
                                             }}
                                         >
                                             Finalizar
