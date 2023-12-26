@@ -23,7 +23,7 @@ export const ubicaciones: Ubicacion[] = [
         path: '/valle_rocoso',
         top: '60%',
         left: '55%',
-        image: '/ubicaciones/valle_rocozo.jpg',
+        image: '/ubicaciones/valle_rocoso.jpg',
         description: 'En esta zona montañosa se encuentran pokémones de tipo Tierra y Normal',
         real_pokemon_location: 'rock-tunnel-1f'
     },
@@ -48,7 +48,7 @@ export const ubicaciones: Ubicacion[] = [
     {
         name: 'Ciudad Plateada',
         path: '/ciudad_plateada',
-        real_pokemon_location: 'saffron-city',
+        real_pokemon_location: 'valley-windworks-area',
         top: '75%',
         left: '50%',
         image: 'ubicaciones/city.jpg',
@@ -57,7 +57,7 @@ export const ubicaciones: Ubicacion[] = [
     {
         name: 'Volcan',
         path: '/volcan',
-        real_pokemon_location: 'mt-ember-cave',
+        real_pokemon_location: 'stark-mountain-area',
         top: '45%',
         left: '10%',
         image: '/ubicaciones/volcan.jpg',
@@ -66,7 +66,7 @@ export const ubicaciones: Ubicacion[] = [
     {
         name: 'Arena de combate',
         path: '/arena',
-        real_pokemon_location: 'kanto-safari-zone',
+        real_pokemon_location: 'great-marsh-area-1',
         top: '50%',
         left: '47%',
         image: '/ubicaciones/arena.jpg',
@@ -75,7 +75,7 @@ export const ubicaciones: Ubicacion[] = [
     {
         name: 'Cueva tenebrosa',
         path: '/cueva_tenebrosa',
-        real_pokemon_location: 'mt-pyre',
+        real_pokemon_location: 'wayward-cave-1f',
         top: '10%',
         left: '46%',
         image: '/ubicaciones/cueva.jpg',
