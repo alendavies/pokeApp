@@ -11,7 +11,7 @@ import { UbicacionPage } from './pages/ubicacion/UbicacionPage.tsx'
 
 const router = createBrowserRouter([
     {
-        path: '/aninfo-pokemon',
+        path: '/',
         element: <App />,
         children: [
             {
