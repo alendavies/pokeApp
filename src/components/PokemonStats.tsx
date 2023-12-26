@@ -10,7 +10,7 @@ const PokemonStats = ({ name }: { name: string }) => {
             setPokemon(p)
         })
     }, [name])
-    return (    
+    return (
         <div className='bg-[#dbdbdb] py-4 px-6 border-none rounded-md cursor-pointer'>
             {pokemon && (
                 <div className='flex flex-col justify-center items-center'>
@@ -18,7 +18,7 @@ const PokemonStats = ({ name }: { name: string }) => {
                         {pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1)}
                     </div>
                     <img
-                        className='md: w-[110px] md: h-[110px] 2xl: w-[180px] 2xl: h-[180px]'
+                        className='md:w-[110px] md:h-[110px] 2xl:w-[180px] 2xl:h-[180px]'
                         src={pokemon.sprites.other?.['official-artwork'].front_default || ''}
                     />
                 </div>
